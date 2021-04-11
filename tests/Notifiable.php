@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace BlueBirdSignalChannel\BlueBirdSignal\Test;
+namespace BlueBirdSignal\BlueBirdSignalChannel\Test;
 
 class Notifiable
 {

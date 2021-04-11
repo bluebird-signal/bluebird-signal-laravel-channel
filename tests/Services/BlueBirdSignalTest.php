@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace BlueBirdSignalChannel\BlueBirdSignal\Test\Services;
+namespace BlueBirdSignal\BlueBirdSignalChannel\Test\Services;
 
-use BlueBirdSignalChannel\BlueBirdSignal\Services\BlueBirdSignal;
+use BlueBirdSignal\BlueBirdSignalChannel\Services\BlueBirdSignal;
 use GuzzleHttp\Client;
 use Orchestra\Testbench\TestCase;
 

@@ -3,10 +3,10 @@ declare(strict_types=1);
 
 namespace BlueBirdSignalChannel\BlueBirdSignal;
 
-use BlueBirdSignalChannel\BlueBirdSignal\Service\BlueBirdSignal;
+use BlueBirdSignal\BlueBirdSignalChannel\Services\BlueBirdSignal;
 use Illuminate\Support\ServiceProvider;
 
-class BluebirdSignalServiceProvider extends ServiceProvider
+class BlueBirdSignalServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {

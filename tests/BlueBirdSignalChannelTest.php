@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace BlueBirdSignalChannel\BlueBirdSignal\Test;
+namespace BlueBirdSignal\BlueBirdSignalChannel\Test;
 
-use BlueBirdSignalChannel\BlueBirdSignal\BlueBirdSignalChannel;
-use BlueBirdSignalChannel\BlueBirdSignal\Services\BlueBirdSignal;
+use BlueBirdSignal\BlueBirdSignalChannel\BlueBirdSignalChannel;
+use BlueBirdSignal\BlueBirdSignalChannel\Services\BlueBirdSignal;
 use Orchestra\Testbench\TestCase;
 
 class BlueBirdSignalChannelTest extends Testcase

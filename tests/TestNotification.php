@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace BlueBirdSignalChannel\BlueBirdSignal\Test;
+namespace BlueBirdSignal\BlueBirdSignalChannel\Test;
 
-use BlueBirdSignalChannel\BlueBirdSignal\BlueBirdSignalMessage;
+use BlueBirdSignal\BlueBirdSignalChannel\BlueBirdSignalMessage;
 use Illuminate\Notifications\Notification;
 
 class TestNotification extends Notification

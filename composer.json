@@ -22,12 +22,12 @@
   },
   "autoload": {
     "psr-4": {
-      "BlueBirdSignalChannel\\BlueBirdSignal\\": "src"
+      "BlueBirdSignal\\BlueBirdSignalChannel\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "BlueBirdSignalChannel\\BlueBirdSignal\\Test\\": "tests"
+      "BlueBirdSignal\\BlueBirdSignalChannel\\Test\\": "tests"
     }
   },
   "scripts": {
@@ -36,7 +36,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "BlueBirdSignalChannel\\BlueBirdSignal\\BlueBirdSignalServiceProvider"
+        "BlueBirdSignal\\BlueBirdSignalChannel\\BlueBirdSignalServiceProvider"
       ]
     }
   }

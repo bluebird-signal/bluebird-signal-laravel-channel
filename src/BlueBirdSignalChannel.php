@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace BlueBirdSignalChannel\BlueBirdSignal;
+namespace BlueBirdSignal\BlueBirdSignalChannel;
 
-use BlueBirdSignalChannel\BlueBirdSignal\Services\BlueBirdSignal;
+use BlueBirdSignal\BlueBirdSignalChannel\Services\BlueBirdSignal;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Notifications\Notification;
 

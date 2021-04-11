@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace BlueBirdSignalChannel\BlueBirdSignal\Services;
+namespace BlueBirdSignal\BlueBirdSignalChannel\Services;
 
 use GuzzleHttp\Client;
 
