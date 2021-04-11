@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace BlueBirdSignal\BlueBirdSignalChannel;
 
 use BlueBirdSignal\BlueBirdSignalChannel\Services\BlueBirdSignal;
+use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
 
 class BlueBirdSignalServiceProvider extends ServiceProvider
@@ -25,6 +26,7 @@ class BlueBirdSignalServiceProvider extends ServiceProvider
 
                 return new BlueBirdSignal(
                     $bluebirdSignalConfig['API_KEY'],
+                    new Client()
                 );
 
             });
