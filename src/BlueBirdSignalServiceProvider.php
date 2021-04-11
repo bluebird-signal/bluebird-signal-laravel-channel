@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace BlueBirdSignalChannel\BlueBirdSignal;
+namespace BlueBirdSignal\BlueBirdSignalChannel;
 
 use BlueBirdSignal\BlueBirdSignalChannel\Services\BlueBirdSignal;
 use Illuminate\Support\ServiceProvider;
