@@ -3,17 +3,10 @@
 
 ### Install instructions
 
-1 ) Add package to your composer.json 
+1 ) You can install the package via composer
 ```json 
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "git@github.com:bluebird-signal/bluebird-signal-laravel-channel.git"
-    }
-],
-   
+composer require bluebird-signal/bluebird-signal-laravel-channel
 ```
-And run ``` php composer install ```
 
 2 ) Add Provider to `config/app.php`
 ```php
